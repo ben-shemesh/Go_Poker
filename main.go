@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/ben-shemesh/Go_Poker/deck"
+)
 
 func main() {
-	fmt.Println("hello")
+	card := deck.NewCard(deck.Spades, 1)
+	fmt.Println(card)
 }

@@ -1,6 +1,6 @@
 build:
-	go build -o bin/GoPoker
+	@go build -o bin/GoPoker
 run: build
- ./bin/GoPoker
+ @./bin/GoPoker
  test:
-	go test -v ./...
+	@go test -v ./...
